@@ -1,0 +1,8 @@
+npm init
+npm i express pg 
+npm i --save-dev nodemon
+
+CREATE TABLE test_table(
+    id SERIAL PRIMARY KEY,
+    contents VARCHAR(255)
+)
